@@ -1,0 +1,28 @@
+{
+  "name": "angular-rem",
+  "description": "rem's directive is based on angular's frame",
+  "main": "index.js",
+  "authors": [
+    "wangchangcheng"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "rem",
+    "response"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.4"
+  },
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
