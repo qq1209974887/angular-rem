@@ -14,12 +14,15 @@ Before using angular-rem should begin with the introduction of angular,
 Then add a `<script>` to your `index.html`:
 
 ```html
+<html ng-rem="375">
+...
+...
 <script src="/bower_components/angular/angular.js"></script>
 <script src="/bower_components/angular-rem/build/angular-rem.min.js"></script>
 ```
 
 ```app.js
-var app = angular.module("myApp", []);
+var app = angular.module("app", [Rem]);
 ```
 
 ## Documentation

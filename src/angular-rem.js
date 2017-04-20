@@ -1,9 +1,9 @@
-/*使用实例1：
+﻿/*使用实例1：
 *   <html ng-rem="375">    //ng-rem用于设置设计图宽度，例如：375表示设计图宽度为375px;
-*   angular.module('starter', ['Rem'])
+*   angular.module('app', ['Rem'])
 * 使用实例2：
 *   <html ng-rem>          //ng-rem不设置任何值，使用默认值为375;
-*   angular.module('starter', ['Rem'])
+*   angular.module('app', ['Rem'])
 */
 ;(function(){
 "use strict";
