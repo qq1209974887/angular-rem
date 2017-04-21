@@ -19,6 +19,9 @@ Then add a `<script>` to your `index.html`:
 ...
 <script src="/bower_components/angular/angular.js"></script>
 <script src="/bower_components/angular-rem/build/angular-rem.min.js"></script>
+...
+...
+</html>
 ```
 
 ```app.js
