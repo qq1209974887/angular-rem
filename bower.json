@@ -1,7 +1,7 @@
 {
   "name": "angular-rem",
   "description": "rem's directive is based on angular's frame",
-  "main": "index.js",
+  "main": "./gulpfile.js",
   "authors": [
     "王长城"
   ],
@@ -24,6 +24,7 @@
     "angular-rem": "^0.0.2"
   },
   "dependencies": {
-    "angular": "^1.6.4"
+    "angular": "^1.6.4",
+    "angular-rem": "^0.0.2"
   }
 }
