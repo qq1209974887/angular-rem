@@ -21,9 +21,5 @@
   ],
   "devDependencies": {
     "angular": "^1.6.4",
-    "angular-rem": "^0.0.2"
-  },
-  "dependencies": {
-    "angular": "^1.6.4"
   }
 }

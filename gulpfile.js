@@ -26,7 +26,8 @@ var taskObj = {
 		return del([
 	        path.dist,
 	        'example/angular.min.js',
-	        'example/angular-rem.min.js'
+	        'example/angular-rem.min.js',
+            'example/angular-rem.js'
 	    ], done);
 	},
 	copyJs:  function () {
