@@ -4,8 +4,7 @@
   "description": "rem's directive is based on angular's frame",
   "main": "index.js",
   "scripts": {
-    "test": "gulp",
-    "release": "gulp release"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "angular",
