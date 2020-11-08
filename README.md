@@ -5,19 +5,20 @@ With the deepening of ECMAScript 6 technology, there are a lot of REM libraries.
 Therefore, this module will be mainly used to learn JavaScript, and no new version will be released
 
 ## Install
-You can install this package either with `bower`.
+You can install this package either with `npm` and  `bower`.
 
-### bower
+### Dowload
 
 ```shell
 bower install angular-rem -save
+npm install angular-rem -save
 ```
 
 Before using angular-rem should begin with the introduction of angular,
 Then add a `<script>` to your `index.html`:
 
 ```html
-<html ng-rem="375">
+<html ng-app="app" ng-rem="375">
 ...
 ...
 <script src="/bower_components/angular/angular.js"></script>
