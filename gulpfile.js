@@ -71,7 +71,6 @@ gulp.task('clear', taskObj.clear);
 gulp.task('default', ['serve']);
 
 //Release new versions of the software
-gulp.task('release',
-    ['clear',
-        'uglify']
-);
+gulp.task('release', function () {
+    runSequence(['clear'], 'uglify')
+});
