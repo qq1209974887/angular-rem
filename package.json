@@ -6,7 +6,10 @@
   "scripts": {
     "start-example": "gulp",
     "beta-example": "gulp",
-    "release": "gulp release"
+    "release-npm-prepatch": "gulp release && npm version prepatch && npm publish ../angular-rem",
+    "release-npm-patch": "gulp release && npm version patch && npm publish ../angular-rem",
+    "release-npm-minor": "gulp release && npm version minor && npm publish ../angular-rem",
+    "release-npm-major": "gulp release && npm version major && npm publish ../angular-rem"
   },
   "keywords": [
     "angularjs",
