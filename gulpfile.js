@@ -10,8 +10,7 @@ var path = pack['path'];
 var js_path = {
     js: [
         'node_modules/angular/angular.min.js',
-        path.dist + '/angular-rem.min.js',
-        path.dist + '/angular-rem.js'
+        path.dist + '/angular-rem.min.js'
     ]
 };
 var taskObj = {
@@ -33,7 +32,7 @@ var taskObj = {
             .pipe(gulp.dest('example/lib'));
     },
     watch: function () {
-        gulp.watch('example/*.*', function () {
+        gulp.watch('example/**/*.*', function () {
             runSequence('reload');
         });
     },
@@ -57,10 +56,12 @@ var taskObj = {
 };
 
 gulp.task('copy:js', taskObj.copyJs);
-gulp.task('watch', taskObj.watch);
+
 gulp.task('reload', taskObj.reload);
 gulp.task('connect', taskObj.connect);
 gulp.task('build', taskObj.build);
+
+gulp.task('watch', taskObj.watch);
 gulp.task('serve', taskObj.serve);
 
 gulp.task('uglify', taskObj.uglify);

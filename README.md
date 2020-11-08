@@ -1,5 +1,8 @@
 # angular-rem
-The  angular-rem is based on Angular
+The angular-rem is based on angularjs.This module is a plug-in based on angularjs framework.
+It is fully developed according to Es5 standard. The code modularization specification is still in the stage of AMD specification and CMD specification.
+With the deepening of ECMAScript 6 technology, there are a lot of REM libraries.
+Therefore, this module will be mainly used to learn JavaScript, and no new version will be released
 
 ## Install
 You can install this package either with `bower`.
@@ -7,7 +10,7 @@ You can install this package either with `bower`.
 ### bower
 
 ```shell
-bower install angular-rem -save-dev
+bower install angular-rem -save
 ```
 
 Before using angular-rem should begin with the introduction of angular,

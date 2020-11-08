@@ -1,1 +1,1 @@
-angular.module('app',['Rem'])
+angular.module('app',['ngRem'])

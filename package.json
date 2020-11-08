@@ -4,7 +4,8 @@
   "description": "rem's directive is based on angular's plugins",
   "main": "./dist/angular-rem.js",
   "scripts": {
-    "example": "gulp",
+    "start-example": "gulp",
+    "beta-example": "gulp",
     "release": "gulp release"
   },
   "keywords": [
